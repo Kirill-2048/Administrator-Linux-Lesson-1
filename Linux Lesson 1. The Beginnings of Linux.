@@ -1,2 +1,6 @@
 Administrator Linux Professiona.
 Lesson 1. The Beginnings of Linux.
+
+badger@ubuntu:~$ uname -r
+6.8.0-55-generic
+
