@@ -13,3 +13,27 @@ total 212724
 -rw-rw-r-- 1 badger badger  15677632 фев 15 08:32 linux-image-unsigned-6.13.2-061302-generic_6.13.2-061302.202502081010_amd64.deb
 -rw-rw-r-- 1 badger badger 184576192 фев 15 08:32 linux-modules-6.13.2-061302-generic_6.13.2-061302.202502081010_amd64.deb
 
+badger@ubuntu:~/kernel$ sudo dpkg -i *.deb
+badger@ubuntu:~/kernel$  ls -al /boot
+total 282488
+drwxr-xr-x  4 root root     4096 мар  9 10:58 .
+drwxr-xr-x 23 root root     4096 мар  1 09:00 ..
+-rw-r--r--  1 root root   294303 фев  8 10:10 config-6.13.2-061302-generic
+-rw-r--r--  1 root root   287562 фев  7 21:09 config-6.8.0-54-generic
+-rw-r--r--  1 root root   287562 фев 12 19:54 config-6.8.0-55-generic
+drwxr-xr-x  5 root root     4096 мар  9 10:58 grub
+lrwxrwxrwx  1 root root       32 мар  9 10:58 initrd.img -> initrd.img-6.13.2-061302-generic
+-rw-r--r--  1 root root 77116830 мар  9 10:58 initrd.img-6.13.2-061302-generic
+-rw-r--r--  1 root root 68763047 мар  1 09:00 initrd.img-6.8.0-54-generic
+-rw-r--r--  1 root root 68752132 мар  8 09:44 initrd.img-6.8.0-55-generic
+lrwxrwxrwx  1 root root       27 мар  9 10:58 initrd.img.old -> initrd.img-6.8.0-55-generic
+drwx------  2 root root    16384 мар  1 08:58 lost+found
+-rw-------  1 root root  9934398 фев  8 10:10 System.map-6.13.2-061302-generic
+-rw-------  1 root root  9080742 фев  7 21:09 System.map-6.8.0-54-generic
+-rw-------  1 root root  9080742 фев 12 19:54 System.map-6.8.0-55-generic
+lrwxrwxrwx  1 root root       29 мар  9 10:58 vmlinuz -> vmlinuz-6.13.2-061302-generic
+-rw-------  1 root root 15647232 фев  8 10:10 vmlinuz-6.13.2-061302-generic
+-rw-------  1 root root 14985608 фев  7 22:01 vmlinuz-6.8.0-54-generic
+-rw-------  1 root root 14985608 фев 12 18:44 vmlinuz-6.8.0-55-generic
+lrwxrwxrwx  1 root root       24 мар  9 10:58 vmlinuz.old -> vmlinuz-6.8.0-55-generic
+
