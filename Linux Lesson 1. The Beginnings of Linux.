@@ -5,3 +5,11 @@ badger@ubuntu:~$ uname -r
 6.8.0-55-generic
 badger@ubuntu:~$ mkdir kernel && cd kernel
 badger@ubuntu:~/kernel$
+
+badger@ubuntu:~/kernel$ ls -l
+total 212724
+-rw-rw-r-- 1 badger badger  13875326 фев 15 08:33 linux-headers-6.13.2-061302_6.13.2-061302.202502081010_all.deb
+-rw-rw-r-- 1 badger badger   3694072 фев 15 08:33 linux-headers-6.13.2-061302-generic_6.13.2-061302.202502081010_amd64.deb
+-rw-rw-r-- 1 badger badger  15677632 фев 15 08:32 linux-image-unsigned-6.13.2-061302-generic_6.13.2-061302.202502081010_amd64.deb
+-rw-rw-r-- 1 badger badger 184576192 фев 15 08:32 linux-modules-6.13.2-061302-generic_6.13.2-061302.202502081010_amd64.deb
+
